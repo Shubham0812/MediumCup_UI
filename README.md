@@ -13,7 +13,7 @@ Medium Drink shape and cap created using the SwiftUI Framework.
 
 
 
-![mediumDrink](https://github.com/Shubham0812/MediumCup_UI/blob/MediumCup/mediumDrink.gif)
+![mediumDrink](https://github.com/Shubham0812/MediumCup_UI/blob/MediumCup/Cups/mediumDrink.gif)
 
 
 
