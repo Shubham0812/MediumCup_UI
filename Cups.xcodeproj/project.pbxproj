@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5145074625DD63DB00740946 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145074525DD63DB00740946 /* Color.swift */; };
 		51DB4311257F546B006D6678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4310257F546B006D6678 /* AppDelegate.swift */; };
 		51DB4313257F546B006D6678 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4312257F546B006D6678 /* SceneDelegate.swift */; };
 		51DB4315257F546B006D6678 /* CupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4314257F546B006D6678 /* CupView.swift */; };
@@ -15,11 +16,9 @@
 		51DB431D257F546C006D6678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DB431B257F546C006D6678 /* LaunchScreen.storyboard */; };
 		51DB4328257F546C006D6678 /* CupsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4327257F546C006D6678 /* CupsTests.swift */; };
 		51DB4333257F546D006D6678 /* CupsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4332257F546D006D6678 /* CupsUITests.swift */; };
-		51DB434B257F5545006D6678 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB434A257F5545006D6678 /* WaveView.swift */; };
 		51DB4357257F560F006D6678 /* MediumCupShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4356257F560F006D6678 /* MediumCupShape.swift */; };
 		51DB435C257F5687006D6678 /* CapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB435B257F5687006D6678 /* CapView.swift */; };
 		51DB4362257F56E1006D6678 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4361257F56E1006D6678 /* UIExtensions.swift */; };
-		51DB436A257F56EB006D6678 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4369257F56EB006D6678 /* ColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5145074525DD63DB00740946 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		51DB430D257F546B006D6678 /* Cups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DB4310257F546B006D6678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DB4312257F546B006D6678 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,11 +54,9 @@
 		51DB432E257F546D006D6678 /* CupsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DB4332257F546D006D6678 /* CupsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupsUITests.swift; sourceTree = "<group>"; };
 		51DB4334257F546D006D6678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51DB434A257F5545006D6678 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		51DB4356257F560F006D6678 /* MediumCupShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumCupShape.swift; sourceTree = "<group>"; };
 		51DB435B257F5687006D6678 /* CapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapView.swift; sourceTree = "<group>"; };
 		51DB4361257F56E1006D6678 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
-		51DB4369257F56EB006D6678 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5145074425DD63CE00740946 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5145074525DD63DB00740946 /* Color.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		51DB4304257F546B006D6678 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +117,7 @@
 			children = (
 				51DB4360257F56CD006D6678 /* Extensions */,
 				51DB4343257F547C006D6678 /* Code */,
+				5145074425DD63CE00740946 /* Utilities */,
 				51DB4316257F546C006D6678 /* Assets.xcassets */,
 				51DB431B257F546C006D6678 /* LaunchScreen.storyboard */,
 				51DB431E257F546C006D6678 /* Info.plist */,
@@ -150,7 +157,6 @@
 			children = (
 				51DB4344257F5481006D6678 /* Controllers */,
 				51DB4352257F55C2006D6678 /* Support Shapes */,
-				51DB4349257F54DE006D6678 /* Support Views */,
 				51DB4345257F548D006D6678 /* Views */,
 			);
 			path = Code;
@@ -174,14 +180,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		51DB4349257F54DE006D6678 /* Support Views */ = {
-			isa = PBXGroup;
-			children = (
-				51DB434A257F5545006D6678 /* WaveView.swift */,
-			);
-			path = "Support Views";
-			sourceTree = "<group>";
-		};
 		51DB4352257F55C2006D6678 /* Support Shapes */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				51DB4361257F56E1006D6678 /* UIExtensions.swift */,
-				51DB4369257F56EB006D6678 /* ColorExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -334,9 +331,8 @@
 				51DB4313257F546B006D6678 /* SceneDelegate.swift in Sources */,
 				51DB4315257F546B006D6678 /* CupView.swift in Sources */,
 				51DB4357257F560F006D6678 /* MediumCupShape.swift in Sources */,
-				51DB434B257F5545006D6678 /* WaveView.swift in Sources */,
 				51DB435C257F5687006D6678 /* CapView.swift in Sources */,
-				51DB436A257F56EB006D6678 /* ColorExtensions.swift in Sources */,
+				5145074625DD63DB00740946 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,10 +36,6 @@ struct MediumCupShape_Previews: PreviewProvider {
         ZStack {
         MediumCupShape()
             .stroke(style: StrokeStyle(lineWidth: 4))
-            Text("@Shubham_iosdev")
-                .opacity(0.8)
-                .font(.system(size: 20, weight: .medium, design: .monospaced))
-                .offset(y: 300)
         }
     }
 }
